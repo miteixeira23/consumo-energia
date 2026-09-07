@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="banner.png" alt="Energy Quest" width="100%">
-</p>
+
 
 # ⚡ ENERGY QUEST ⚡
 
