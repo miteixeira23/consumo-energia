@@ -1,6 +1,6 @@
 # Calculadora de Consumo Elétrico
 print("=======================================")
-print(" Smart Energy - Calculadora de Consumo")
+print(" Energy Quest - Calculadora de Consumo")
 print("=======================================")
 
 # Entrada de dados aparelho
