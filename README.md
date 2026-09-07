@@ -1,237 +1,204 @@
-# ⚡🌸 CALCULADORA DE CONSUMO ELÉTRICO 🌸⚡
+
+
+# ⚡ ENERGY QUEST ⚡
 
 <p align="center">
+
+### 🌸 Calculadora de Consumo Elétrico 🌸
+
+**Pequenas escolhas, grandes impactos!** 🌱
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![Energy](https://img.shields.io/badge/⚡_ENERGY-CALCULATOR-yellow?style=for-the-badge)
-
-</p>
-
-<p align="center">
-
-### 🌟 「 MISSÃO: DOMINAR O CONSUMO DE ENERGIA 」 🌟
+![Git](https://img.shields.io/badge/Git-Versionamento-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![Energy](https://img.shields.io/badge/⚡_Energia-Elétrica-yellow?style=for-the-badge)
 
 </p>
 
 ---
 
-## 🌸 SOBRE O PROJETO
+## 🌸 Sobre o projeto
 
-> ⚡ **Uma nova missão foi iniciada!**
+A **Energy Quest** é uma calculadora de consumo elétrico desenvolvida em **Python**.
 
-A **Calculadora de Consumo Elétrico** é um sistema desenvolvido em **Python** que permite estimar quanto um aparelho elétrico consome de energia durante um mês.
+A missão é simples: informar alguns dados sobre um aparelho e descobrir quanto ele pode consumir de energia por mês e qual seria o custo estimado.
 
 O usuário informa:
 
-🔌 **Aparelho**
-⚡ **Potência em Watts (W)**
-⏱️ **Horas de uso por dia**
+* 🔌 Nome do aparelho
+* ⚡ Potência em watts (W)
+* ⏱️ Tempo médio de uso diário
 
-E então...
+Após o processamento, o sistema apresenta:
 
-```text
-╔══════════════════════════════════════╗
-║        ⚡ ENERGY CALCULATOR ⚡        ║
-╠══════════════════════════════════════╣
-║                                      ║
-║   🔌 APARELHO                        ║
-║   ⚡ POTÊNCIA                        ║
-║   ⏱️ TEMPO DE USO                    ║
-║                                      ║
-║              ↓                       ║
-║                                      ║
-║       🧮 PROCESSAMENTO               ║
-║              ↓                       ║
-║                                      ║
-║       📊 CONSUMO MENSAL              ║
-║       💰 CUSTO ESTIMADO              ║
-║                                      ║
-╚══════════════════════════════════════╝
-```
+* 📊 Consumo estimado em kWh/mês
+* 💰 Custo mensal estimado
+
+> 🌱 **Mais consciência sobre o consumo hoje pode significar um amanhã melhor.**
 
 ---
 
-## ⚔️ OBJETIVO DA MISSÃO
+## ⚔️ Missão do projeto
 
-O objetivo deste projeto é praticar conceitos fundamentais de programação enquanto criamos uma ferramenta simples para compreender o consumo de energia elétrica.
+Este projeto foi criado como parte de uma jornada de **iniciação em tecnologia**, com o objetivo de praticar os fundamentos da programação em Python.
 
-### 🎯 Habilidades utilizadas
+### 🎯 O que foi colocado em prática?
 
-* 🐍 Fundamentos de Python
-* 📦 Variáveis
-* ⌨️ Entrada de dados
-* 🔢 Conversão de tipos
+* 🐍 Variáveis
+* ⌨️ Entrada de dados com `input()`
+* 🔢 Conversão de tipos com `float()`
 * 🧮 Operações matemáticas
-* 📤 Saída de dados
-* 🎨 Formatação de resultados
-* 🐙 Git e GitHub
+* 📐 Aplicação de fórmulas
+* 🖥️ Saída de dados com `print()`
+* ✨ Formatação de resultados
+* 🔗 Versionamento com Git
+* 🐙 Publicação no GitHub
 
 ---
 
-## 🧮 O PODER DA FÓRMULA
+## ⚡ Fórmula do consumo
 
-Para calcular o consumo mensal, utilizamos:
-
-```text
-             POTÊNCIA × HORAS/DIA × 30
-CONSUMO = ───────────────────────────────
-                         1000
-```
-
-Ou:
+O consumo mensal é calculado utilizando:
 
 ```text
-consumoMensal = (potencia × horasDia × 30) / 1000
+Consumo mensal = (Potência × Horas por dia × 30) / 1000
 ```
 
-⚡ O resultado é apresentado em:
+O resultado é apresentado em:
 
-```text
-kWh/mês
-```
+**kWh/mês**
 
-### 💰 Cálculo do custo
+### 💰 E quanto custa?
 
 Para este projeto, foi considerado o valor de:
 
-```text
-R$ 0,65 por kWh
-```
+**R$ 0,65 por kWh**
 
-Então:
+A fórmula utilizada para calcular o custo é:
 
 ```text
-custoMensal = consumoMensal × 0,65
+Custo mensal = Consumo mensal × 0,65
 ```
 
 ---
 
-## 🌙 EXEMPLO DE BATALHA
+## 🌙 Exemplo de utilização
 
-Imagine que nosso aparelho seja uma **Geladeira**:
-
-```text
-╭────────────────────────────────────╮
-│         ⚡ APARELHO DETECTADO ⚡    │
-├────────────────────────────────────┤
-│                                    │
-│ 🔌 Nome: Geladeira                │
-│ ⚡ Potência: 60 W                  │
-│ ⏱️ Uso: 24 horas/dia              │
-│                                    │
-╰────────────────────────────────────╯
-```
-
-### 🧮 Resultado
+Imagine uma **geladeira** com:
 
 ```text
-⚡ CONSUMO MENSAL
-43.20 kWh/mês
-
-💰 CUSTO ESTIMADO
-R$ 28,08/mês
+🔌 Aparelho: Geladeira
+⚡ Potência: 60 W
+⏱️ Uso diário: 24 horas
 ```
 
-> ✨ **Missão concluída!**
+O programa calcula:
+
+```text
+📊 Consumo mensal: 43.20 kWh/mês
+💰 Custo mensal: R$ 28,08/mês
+```
+
+### 🧮 Resultado no programa
+
+```text
+====================================
+            RESULTADO
+====================================
+Aparelho: Geladeira
+Consumo mensal: 43.20 kWh/mês
+Custo mensal: R$ 28.08/mês
+```
 
 ---
 
-## 🖥️ COMO EXECUTAR
+## 🚀 Como executar
 
-### ① Clone o projeto
+### 1. Clone o repositório
 
 ```bash
 git clone URL_DO_REPOSITORIO
 ```
 
-### ② Entre na pasta
+### 2. Entre na pasta do projeto
 
 ```bash
 cd consumo-energia
 ```
 
-### ③ Execute o programa
+### 3. Execute o programa
 
 ```bash
 python app.py
 ```
 
+Pronto! ✨
+
+Sua missão foi iniciada.
+
 ---
 
-## 🐍 TECNOLOGIAS
+## 🛠️ Tecnologias utilizadas
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+🐍 **Python**
+🔗 **Git**
+🐙 **GitHub**
+⚡ **Cálculo de consumo elétrico**
 
 </p>
 
 ---
 
-## 📂 ESTRUTURA DO PROJETO
+## 📂 Estrutura do projeto
 
 ```text
-⚡ consumo-energia/
+consumo-energia/
 │
-├── 🐍 app.py
-│   └── Calculadora de consumo
+├── app.py
+│   └── Calculadora de consumo elétrico
 │
-└── 📖 README.md
+└── README.md
     └── Documentação do projeto
 ```
 
 ---
 
-## 🚀 PRÓXIMA EVOLUÇÃO
+## 🔮 Próximos níveis
 
-A aventura ainda não terminou...
+A aventura não termina aqui! ✨
 
-### 🔮 Próximas funcionalidades
+### 🌟 Funcionalidades que podem ser adicionadas
 
-* 💰 Permitir alterar o valor do kWh
+* 💰 Permitir que o usuário informe o valor do kWh
 * 🔌 Cadastrar vários aparelhos
 * 📊 Calcular o consumo total da residência
 * 💵 Calcular o custo total mensal
-* ⚠️ Criar alertas para alto consumo
+* ⚠️ Criar alertas para aparelhos de alto consumo
 * 🖥️ Criar uma interface gráfica
 * 🌐 Transformar o projeto em uma aplicação web
 
-```text
-╔══════════════════════════════════╗
-║                                  ║
-║     🌸 LEVEL UP! 🌸              ║
-║                                  ║
-║  Novas funcionalidades           ║
-║  serão desbloqueadas...          ║
-║                                  ║
-║          🔒 ???                  ║
-║                                  ║
-╚══════════════════════════════════╝
-```
+> ⭐ **LEVEL UP!**
+>
+> Novos desafios desbloqueados...
 
 ---
 
-## 👩‍💻 CRIADO POR
+## 👩‍💻 Autora
 
-### ✨ Michelle Teixeira
+### 🌸 Michelle Teixeira
 
-🌸 Projeto desenvolvido como parte de uma jornada de iniciação em tecnologia.
+Projeto desenvolvido como parte de um programa de iniciação em tecnologia.
 
-> 「 Todo grande projeto começa com uma primeira linha de código. 」 ⚡
+> 💻 **Todo grande projeto começa com uma primeira linha de código.** ⚡
 
 ---
 
 <p align="center">
 
-### ⚡🌸 FIM DA MISSÃO 🌸⚡
+### ⚡🌸 MISSÃO CONCLUÍDA 🌸⚡
 
-**Obrigada por visitar meu projeto!**
+Obrigada por visitar meu projeto! 💜
 
 </p>
-
