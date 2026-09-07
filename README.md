@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="./banner.png" alt="Energy Quest - Calculadora de Consumo Elétrico" width="100%">
+</p>
 
 # ⚡ ENERGY QUEST ⚡
 
